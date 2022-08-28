@@ -10,12 +10,12 @@ export default {
     },
     {
       name: "description",
-      title: "description",
+      title: "Description",
       type: "string",
     },
     {
       name: "image",
-      title: "image",
+      title: "Image",
       type: "image",
       options: {
         hotspot: true,
