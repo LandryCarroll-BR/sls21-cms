@@ -11,6 +11,7 @@ import post from "./post";
 import author from "./author";
 import primaryFeature from "./primaryFeature";
 import testimonial from "./testimonial";
+import testimonailSection from "./testimonailSection";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,5 +30,6 @@ export default createSchema({
     blockContent,
     primaryFeature,
     testimonial,
+    testimonailSection,
   ]),
 });
